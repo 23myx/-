@@ -4,13 +4,13 @@ st.title("AI大数据应用产品网")
 
 c1,c2= st.columns(2)
 with c1:
-    st.image("https://img1.baidu.com/it/u=3727430941,3499095021&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=624",
+    st.image("https://img0.baidu.com/it/u=1501413504,746317667&fm=253&fmt=auto&app=138&f=JPEG?w=300&h=300",
              use_column_width=True)
     flag=st.button("智能回答",use_container_width=True)
     if flag:
         st.switch_page("pages/demo3.py")
 with c2:
-    st.image("https://img1.baidu.com/it/u=3727430941,3499095021&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=624",
+    st.image("https://img1.baidu.com/it/u=190111504,576413481&fm=253&fmt=auto&app=138&f=JPEG?w=300&h=300",
              use_column_width=True)
     flag1=st.button("智能画图",use_container_width=True)
     if flag1:
